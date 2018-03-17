@@ -33,3 +33,4 @@ def OR(x1,x2):
 print(AND(0,0),AND(0,1),AND(1,0),AND(1,1))
 print(NAND(0,0),NAND(0,1),NAND(1,0),NAND(1,1))
 print(OR(0,0),OR(0,1),OR(1,0),OR(1,1))
+
