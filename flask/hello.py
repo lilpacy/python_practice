@@ -3,7 +3,7 @@
 from flask import Flask, render_template
 import pymysql
 
-app = Flask(__name__) # 何してる
+app = Flask(__name__) # Flaskクラスのインスタンスを生成している
 
 @app.route('/') # ルーティング設定
 def hello():
