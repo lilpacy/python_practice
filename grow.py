@@ -5,7 +5,7 @@ def grow(s,r):
         if s[i]=='f': # 'f'を'fg'に置き換え
             ss=ss+'fg'
         else:
-            if s[i]=='g': #'g'を' gh'に置き換え
+            if s[i]=='g': #'g'を'gh'に置き換え
                 ss=ss+'gh'
             else:
                 ss=ss+'h' # その他の文字(h)の時そのまま
