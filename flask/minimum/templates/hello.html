@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<link rel="manifest" href="/manifest.json" />
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "69ae0af7-4828-40b5-b9ce-b47b9dbea11f",
+      autoRegister: false,
+      notifyButton: {
+        enable: true,
+      }
+    });
+  });
+</script>
+</head>
+<body>
+<title>Hello from Flask</title>
+{% if name %}
+  <h1>{{ name }}さん！テンプレートからのHello Worldだよ！</h1>
+{% else %}
+  <h1>テンプレートからのHello Worldだよ！</h1>
+{% endif %}
+</body>
+</html>
+
